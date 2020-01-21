@@ -46,7 +46,7 @@ public:
     {
         if (windows2->objectName().isEmpty())
             windows2->setObjectName(QStringLiteral("windows2"));
-        windows2->resize(640, 243);
+        windows2->resize(640, 254);
         centralwidget = new QWidget(windows2);
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
         horizontalLayout_2 = new QHBoxLayout(centralwidget);
